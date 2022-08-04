@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.ant {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    z-index: 500;
+}
+
+.MiddleButton {
+    text-align: center;
+    vertical-align: middle;
+}
