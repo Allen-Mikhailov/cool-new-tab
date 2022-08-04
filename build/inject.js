@@ -4,6 +4,8 @@ const css =[`.body {
 }`, ]
 const js = []
 
-//`__JS__`
 
-const page = Math.floor(Math.random()*pages.length)
+js[0] = () => {
+    console.log("Test")
+
+}
