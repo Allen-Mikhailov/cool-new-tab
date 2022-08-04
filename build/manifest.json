@@ -1,0 +1,13 @@
+{
+    "name": "cool-new-tab",
+    "description": "randomly adds an effect to every new-tab page of chrome",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "content_scripts": [
+        {
+          "matches": ["chrome://new-tab-page/"],
+          "js": ["inject.js"]
+        }
+      ]
+}
