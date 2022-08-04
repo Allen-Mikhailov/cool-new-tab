@@ -9,7 +9,6 @@ const css =[`body {
     position: absolute;
     width: 20px;
     height: 5px;
-    z-index: 500;
 }
 
 .MiddleButton {
