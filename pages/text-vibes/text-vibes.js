@@ -1,4 +1,4 @@
-const rainDropCount = 200
+const rainDropCount = 50
 
 const fallangle = 225
 

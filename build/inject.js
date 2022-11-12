@@ -43,13 +43,13 @@ body {
 
 .drop {
     position: absolute;
-    width: 40px;
+    width: 120px;
     height: 2.5px;
     opacity: .8;
     background-color: lightblue;
     visibility: hidden;
 
-    animation: fall 1s linear 0s 1000000000;
+    animation: fall .5s linear 0s infinite;
 }`, ]
 const js = []
 
@@ -114,7 +114,7 @@ Update()
 
 }
 js[1] = () => {
-    const rainDropCount = 200
+    const rainDropCount = 50
 
 const fallangle = 225
 
