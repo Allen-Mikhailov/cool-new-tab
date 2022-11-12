@@ -33,5 +33,5 @@ body {
     background-color: lightblue;
     visibility: hidden;
 
-    animation: fall .5s linear 0s infinite;
+    animation: fall .75s linear 0s infinite;
 }
